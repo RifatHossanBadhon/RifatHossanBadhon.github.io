@@ -1,0 +1,136 @@
+/* @media screen and (max-width:1200px) {
+   
+    .nav-container{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    
+} */
+
+@media (max-width: 600px) {
+  .input-area {
+    flex-direction: column;
+  }
+  .input-area input,
+  .input-area button {
+    width: 100%;
+  }
+
+  
+  .terminal {
+    flex-direction: column;
+  }
+
+  #gameArea {
+    margin-left: 0;
+  }
+
+  .stack {
+    margin-left: 0;
+    flex-direction: row;
+  }
+
+  .skill-item {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .education-container,
+  .project-container,
+  .award-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hobby-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .about-hobby-grid {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+  }
+
+  .project-details {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-main .text {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+
+  #desktop-nav .nav-links {
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+
+  #about .img-container,
+  #awards .img-container.two-card {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-top: 2.5rem;
+    gap: 0;
+  }
+
+  #about .img-container .card,
+  #awards .img-container.two-card .card {
+    width: 220px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    margin-left: 0;
+  }
+
+  #about .img-container .card-text img {
+    width: 100%;
+    height: auto;
+  }
+
+  #about .img-container .card:nth-child(1),
+  #awards .img-container.two-card .card:nth-child(1) {
+    transform: rotate(-6deg);
+    z-index: 1;
+    left: 0;
+  }
+
+  #about .img-container .card:nth-child(2),
+  #awards .img-container.two-card .card:nth-child(2) {
+    z-index: 2;
+    right: 0;
+    top: 20px;
+  }
+
+  #about .img-container .card:nth-child(2) {
+    transform: rotate(2deg);
+  }
+
+  #awards .img-container.two-card .card:nth-child(2) {
+    transform: rotate(0deg);
+  }
+
+  #awards .img-container.two-card .card:first-child:last-child {
+    left: 50%;
+    transform: translateX(-50%) rotate(-6deg);
+  }
+  #activity .img-container.two-card .card:first-child:last-child {
+    
+    transform: translateX(10%) rotate(0deg);
+  }
+
+  #about .img-container .card:nth-child(n+3) {
+    display: none;
+  }
+
+}
+@media (min-width: 601px) {
+  #gameArea .text {
+    min-height: 40px;
+  }
+}

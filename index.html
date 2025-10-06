@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifat Hossan Badhon | CSE Student | Web Development & Cybersecurity Enthusiast</title>
+    <meta name="description"
+        content="Portfolio of Rifat Hossan Badhon, a passionate CSE student skilled in web development and cybersecurity. Explore projects, skills, and social links.">
+    <meta name="keywords"
+        content="Rifat Hossan Badhon, CSE student, web development, cybersecurity, portfolio, GitHub, LinkedIn, projects">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://rifathossanbadhon.me">
+    <link rel="icon" type="image/png" sizes="192x192" href="logo/logo.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,600&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <meta property="og:title" content="Rifat Hossan Badhon | Web Development & Cybersecurity Portfolio">
+    <meta property="og:description"
+        content="Explore the portfolio of Rifat Hossan Badhon, a CSE student passionate about web development and cybersecurity.">
+    <meta property="og:image" content="logo/logo.png">
+    <meta property="og:url" content="https://rifathossanbadhon.me">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rifat Hossan Badhon | Web Development & Cybersecurity Portfolio">
+    <meta name="twitter:description"
+        content="Portfolio of Rifat Hossan Badhon, a passionate CSE student skilled in web development and cybersecurity.">
+    <meta name="twitter:image" content="logo/logo.png">
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="hamburger.css" media="all">
+    <link rel="stylesheet" href="skills.css" media="all">
+    <link rel="stylesheet" href="footer.css" media="all">
+    <link rel="stylesheet" href="mediaqueries.css" media="all">
+    <script src="toggleMenu.js" defer></script>
+    <script src="script.js" defer></script>
+    <script src="progress.js" defer></script>
+    <script src="game.js" defer></script>
+</head>
+
+
+<body>
+
+    <header class="nav-container">
+        <nav id="desktop-nav" class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <img src="logo/logo_for_hero.png" alt="Rifat Logo">
+                </div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#awards">Awards</a></li>
+                        <li><a href="#activity">Activity</a></li>
+                        <!-- <li><a href="#contact">Contact</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <nav id="hamburger-nav">
+        <div class="logo">
+            <img src="logo/logo_for_hero.png" alt="Rifat Logo">
+        </div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <ul class="menu-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#awards">Awards</a></li>
+                    <li><a href="#activity">Activity</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero page-section active" id="home" data-page="home">
+        <div class="container">
+            <div class="content">
+                <div class="intro-text scroll-reveal">
+                    <h1></h1>
+                </div>
+                <p class="text scroll-reveal" style="--delay: 0.1s">
+                    just an average student trying to survive assignments, fix bugs , struggle with exams and grades and
+                    still believe in the dream of becoming a software engineer
+                </p>
+                <div class="terminal scroll-reveal" style="--delay: 0.2s">
+                    <h2>Hack The Box</h2>
+                    <div id="gameArea">
+
+                    </div>
+                </div>
+                <div class="tech-stack-container scroll-reveal" style="--delay: 0.3s">
+                    <h2>Languages</h2>
+                    <div class="stack">
+                        <code><img width="40" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/c.png" alt="C" title="C"/></code>
+                        <code><img width="40" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/c++.png" alt="C++" title="C++"/></code>
+                        <code><img width="40" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/javascript.png" alt="JavaScript" title="JavaScript"/></code>
+                        <code><img width="40" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png" alt="Python" title="Python"/></code>
+                        <code><img width="45" src="https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/java.png" alt="Java" title="Java"/></code>
+                    </div>
+                </div>
+
+                <div class="skills-container scroll-reveal" style="--delay: 0.4s">
+                    <h2>CyberSecurity</h2>
+
+                    <div class="skill-item">
+                        <div class="skill-details">
+                            <span class="skill-name">Nmap</span>
+                            <span class="level">Basic</span>
+                        </div>
+                        <div class="progress-bar-ctn">
+                            <div class="progress-bar" data-level="30%"></div>
+                        </div>
+                        <div class="skill-details">
+                            <span class="skill-name">WireShark</span>
+                            <span class="level">Basic</span>
+                        </div>
+                        <div class="progress-bar-ctn">
+                            <div class="progress-bar" data-level="35%"></div>
+                        </div>
+                        <div class="skill-details">
+                            <span class="skill-name">Metasploit</span>
+                            <span class="level">Average</span>
+                        </div>
+                        <div class="progress-bar-ctn">
+                            <div class="progress-bar" data-level="55%"></div>
+                        </div>
+                        <div class="skill-details">
+                            <span class="skill-name">Hydra</span>
+                            <span class="level">Mid</span>
+                        </div>
+                        <div class="progress-bar-ctn">
+                            <div class="progress-bar" data-level="60%"></div>
+                        </div>
+                        <div class="skill-details">
+                            <span class="skill-name">Hashcat</span>
+                            <span class="level">Mid</span>
+                        </div>
+                        <div class="progress-bar-ctn">
+                            <div class="progress-bar" data-level="65%"></div>
+                        </div>
+                        <div class="skill-details">
+                            <span class="skill-name">Aircrack-ng</span>
+                            <span class="level">Full</span>
+                        </div>
+                        <div class="progress-bar-ctn">
+                            <div class="progress-bar" data-level="90%"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="page-section" data-page="about">
+        <div class="container">
+            <div class="content">
+                <div class="scroll-reveal">
+                    <h1 class="intro-text">About</h1>
+                    <p class="text">Who I am</p>
+                </div>
+
+                <div class="img-container scroll-reveal" style="--delay: 0.1s">
+
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text">
+                                <img src="logo/img-1.jpg" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">January 2025</p>
+                                <p class="location">Saint Martin Beach</p>
+                                <p class="caption">enjoying beautiful weather</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text">
+                                <img src="logo/img-2.jpg" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">October 2024</p>
+                                <p class="location">amusement park</p>
+                                <p class="caption">unforgettable magic carpet ride</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text">
+                                <img src="logo/img-3.jpg" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">May 2024</p>
+                                <p class="location">Campus Contest</p>
+                                <p class="caption">the uni share my photo on their page</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text">
+                                <img src="logo/img-4.jpg" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">January 2025</p>
+                                <p class="location">Bay of Bengal</p>
+                                <p class="caption">lost balance and fell on the ship</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="education-container scroll-reveal" style="--delay: 0.2s">
+                    <h2>Education</h2>
+                    <ul class="education">
+                        <li class="edu-item diu">
+                            <div class="edu-details">
+                                <div>
+                                    <h3>Daffodil International University</h3>
+                                    <p class="subtitle">B.Sc in Computer Science & Engineering</p>
+                                    <ul class="description">
+                                        <li>current semester SGPA is 3.94</li>
+                                    </ul>
+                                </div>
+                                <div class="timeline">
+                                    <p>2024-2028</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="edu-item ju-college">
+                            <div class="edu-details ">
+                                <div>
+                                    <h3>Jahangirnagar College </h3>
+                                    <p class="subtitle">completed my HSC exam in Science</p>
+                                    <ul class="description">
+                                        <li>got GPA 5 out of 5</li>
+                                    </ul>
+                                </div>
+                                <div class="timeline">
+                                    <p>2020-2022</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="edu-item ju-school">
+                            <div class="edu-details">
+                                <div>
+                                    <h3>Jahangirnagar School</h3>
+                                    <p class="subtitle">completed my SSC exam in Science</p>
+                                    <ul class="description">
+                                        <li>got GPA 5 out of 5</li>
+                                    </ul>
+                                </div>
+                                <div class="timeline">
+                                    <p>2018-2020</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="project-container scroll-reveal" style="--delay: 0.3s">
+                    <h2>Project</h2>
+                    <ul class="project">
+                        <li class="project-item">
+                            <a href="https://github.com/RifatHossanBadhon/Cosmic-Cure-Hospital-System" target="_blank">
+                                <div class="project-details">
+                                    <div>
+                                        <h3>Cosmic Cure</h3>
+                                        <p class="subtitle">Cloud-deployed hospital management web app with CRUD,
+                                            PostgreSQL, role panels, and chatbot, sos support.</p>
+                                    </div>
+                                    <div class="pills-container">
+                                        <span class="pill bg-blue">java</span>
+                                        <span class="pill bg-yellow">JS</span>
+                                        <span class="pill bg-purple">PostgreSQL</span>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="project-item">
+                            <a href="https://github.com/RifatHossanBadhon/U-Turn-Traffic-Management-System"
+                                target="_blank">
+                                <div class="project-details">
+                                    <div>
+                                        <h3>U-Turn</h3>
+                                        <p class="subtitle">traffic management app with Dijkstra’s Algorithm, role-based
+                                            access, and interactive CLI features.</p>
+                                    </div>
+                                    <div class="pills-container">
+                                        <span class="pill bg-teal">C</span>
+                                        <span class="pill bg-slate">CLI</span>
+                                        <span class="pill bg-sky">Dijkstra’s</span>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="project-item">
+                            <a href="https://github.com/RifatHossanBadhon/Lock_PC_With_Python" target="_blank">
+                                <div class="project-details">
+                                    <div>
+                                        <h3>LockRange</h3>
+                                        <p class="subtitle">Bluetooth-based Python utility for automatic PC locking when
+                                            the
+                                            device disconnects.</p>
+                                    </div>
+                                    <div class="pills-container">
+                                        <span class="pill bg-green">Python</span>
+                                        <span class="pill bg-slate">PyBluez</span>
+
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="project-item">
+                            <div class="project-details">
+                                <div>
+                                    <h3>Multimeter</h3>
+                                    <p class="subtitle">Designed and implemented a digital multimeter using Arduino Uno
+                                        R3.</p>
+                                </div>
+                                <div class="pills-container">
+                                    <span class="pill bg-blue">Arduino</span>
+                                    <span class="pill bg-orange-dark">Hardware</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="project-item">
+                            <div class="project-details">
+                                <div>
+                                    <h3>DC Charger</h3>
+                                    <p class="subtitle">Developed a DC charing system with regulated power supply for
+                                        elctronic devices.</p>
+                                </div>
+                                <div class="pills-container">
+                                    <span class="pill bg-green">Hardware</span>
+                                    <span class="pill bg-purple">Electronics</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="project-container scroll-reveal" style="--delay: 0.4s">
+                    <h2>Hobby</h2>
+                    <div class="hobby-grid about-hobby-grid">
+                        <div>
+                            <h3>Online Gamer</h3>
+                            <p class="subtitle">carrying random teammates since forever.</p>
+                        </div>
+                        <div>
+                            <h3>Bike Lover</h3>
+                            <p class="subtitle">the day when fuel prices and my wallet agree.</p>
+                        </div>
+                        <div>
+                            <h3>Watch Collector</h3>
+                            <p class="subtitle">one watch clearly isn't enough to tell me i am late.</p>
+                        </div>
+                        <div>
+                            <h3>Love to sing</h3>
+                            <p class="subtitle">trained my voice ML model to do it for me.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="awards" class="page-section" data-page="awards">
+        <div class="container">
+            <div class="content">
+                <div class="scroll-reveal">
+                    <h1 class="intro-text">Awards</h1>
+                    <p class="text">Not too many</p>
+                </div>
+                <div class="img-container two-card scroll-reveal" style="--delay: 0.1s">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text ">
+                                <img src="logo/champ.png" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">August 10 2025</p>
+                                <p class="location">DIU Smart City</p>
+                                <p class="caption">claiming the champ award</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text ">
+                                <img src="logo/award-photo.PNG" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">August 10 2025</p>
+                                <p class="location">DIU Smart City</p>
+                                <p class="caption">claiming the champ award</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="award-box scroll-reveal" style="--delay: 0.2s">
+                    <p class="text"><span class="animated-title animate-shine">Champion </span>— Awarded by the Dean for
+                        developing Cosmic Cure<br>A full-stack Hospital
+                        Management
+                        System as part of a team project. I contributed as a full-stack developer
+                        Beyond development, me and my team conducted hospital visits for requirement gathering,
+                        interviewed doctors and pharmacists, designed a <a
+                            href="https://sites.google.com/diu.edu.bd/cosmic-cure/home" target="_blank"> Google Site
+                        </a>for the project presentation and
+                        created a product advertisement.</p>
+                </div>
+                <div class="img-container two-card scroll-reveal" style="--delay: 0.3s">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text ">
+                                <img src="logo/u-turn-pre.jpg" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">December 12 2024</p>
+                                <p class="location">DIU Smart City</p>
+                                <p class="caption">2nd-runner-up</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text ">
+                                <img src="logo/2nd-runner-up.png" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">December 12 2024</p>
+                                <p class="location">DIU Smart City</p>
+                                <p class="caption">no fire alarms triggered!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="award-box scroll-reveal" style="--delay: 0.4s">
+                    <p class="text"><span class="animated-title animate-bronze">2nd Runner-Up </span>— Awarded for a
+                        CLI-based Traffic Management System<br>
+                        The project involved working directly with traffic systems,
+                        including interactions with traffic police, drivers, and rickshaw pullers to gather real-world
+                        requirements. I contributed to the project development and alongside the team designed a
+                        <a href="https://sites.google.com/diu.edu.bd/project-u-turn/home?read_current=1"
+                            target="_blank">Google Site</a> for the project presentation and created an advertisement to
+                        showcase our work.
+                    </p>
+                </div>
+                <div class="img-container two-card scroll-reveal" style="--delay: 0.5s">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text ">
+                                <img src="logo/silver.png" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">forgot the date</p>
+                                <p class="location">Dhaka</p>
+                                <p class="caption">felt really happy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="award-box scroll-reveal" style="--delay: 0.6s">
+                    <p class="text"><span class="animated-title animate-silver">Silver Medal</span> — For excelling in a
+                        school race with math challenges<br>
+                        Unlike traditional races, where I never won, this challenge tested both speed and brainpower. My
+                        opponents ran faster than me, but I solved the math problems quicker, earning the medal. For the
+                        one race where my brain could confidently tell my legs, 'Don't worry, I got this.'</p>
+                </div>
+                <div class="award-box scroll-reveal" style="--delay: 0.7s">
+                    <h3>More</h3>
+                    <div class="hobby-grid">
+                        <div>
+                            <h3>Merit Scholarship</h3>
+                            <p class="subtitle">Awarded by Daffodil International University</p>
+                        </div>
+                        <div>
+                            <h3>Academic Excellence Award</h3>
+                            <p class="subtitle">Recognized for outstanding performance in school academics..</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="activity" class="page-section" data-page="activity">
+        <div class="container">
+            <div class="content">
+                <div class="scroll-reveal">
+                    <h1 class="intro-text">Activity</h1>
+                    <p class="text">memorable moments</p>
+                </div>
+                <div class="img-container two-card scroll-reveal" style="--delay: 0.5s">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text ">
+                                <img src="logo/icpc.jpeg" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">Nov. 18, 2024</p>
+                                <p class="location">Dhaka Site</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="award-box scroll-reveal" style="--delay: 0.6s">
+                    <p class="text"><span class="animated-title animate-silver">First ICPC Experience</span>
+                        Took part in a regional online programming contest that tested both logic and speed. Even though
+                        I was out in the first round, it helped me learn more about coding competitions.</p>
+                </div>
+                <div class="img-container two-card scroll-reveal" style="--delay: 0.5s">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text ">
+                                <img src="logo/googling.jpg" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">May 03, 2024</p>
+                                <p class="location">DIU Campus</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="award-box scroll-reveal" style="--delay: 0.6s">
+                    <p class="text"><span class="animated-title animate-silver">Ranked in the top 4%</span> participated
+                        in an onsite problem-solving challenge at my campus where everyone used
+                        only Google to find answers. The experience was challenging and was great fun.</p>
+                </div>
+                <div class="img-container two-card scroll-reveal" style="--delay: 0.5s">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text ">
+                                <img src="logo/ammeter.jpg" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">Dec. 01, 2024</p>
+                                <p class="location">Electronics Lab</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="award-box scroll-reveal" style="--delay: 0.6s">
+                    <p class="text"><span class="animated-title animate-silver">Designed and assembled</span> a fully
+                        functional digital multimeter using Arduino Uno R3.
+                        This project enhanced my hands-on hardware skills, deepened my understanding of electronics.</p>
+                </div>
+                <div class="img-container two-card scroll-reveal" style="--delay: 0.5s">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text ">
+                                <img src="logo/earth.jpg" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">2018</p>
+                                <p class="location">Inter-School</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="award-box scroll-reveal" style="--delay: 0.6s">
+                    <p class="text"><span class="animated-title animate-silver">Earth Champ 2018</span> represented my
+                        school and competed against other schools. The event tested my knowledge of environmental issues
+                        and current affairs, and it was a great opportunity to learn and challenge myself.</p>
+                </div>
+                <div class="img-container two-card scroll-reveal" style="--delay: 0.5s">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text ">
+                                <img src="logo/takeoff.jpg" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">Jun. 11, 2024</p>
+                                <p class="location">>DIU Campus</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="award-box scroll-reveal" style="--delay: 0.6s">
+                    <p class="text"><span class="animated-title animate-silver">My first-ever contest</span> qalified
+                        through the preliminary round and competed in the final, learning a lot and enjoying the thrill
+                        of the competition</p>
+                </div>
+                <div class="img-container two-card scroll-reveal" style="--delay: 0.5s">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text ">
+                                <img src="logo/gathering.jpg" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">Feb.22, 2025</p>
+                                <p class="location">DIU Campus</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="award-box scroll-reveal" style="--delay: 0.6s">
+                    <p class="text"><span class="animated-title animate-silver">Learning from Seniors</span> received
+                        guidance and tips from senior students to improve my skills and approach.</p>
+                </div>
+                <div class="img-container two-card scroll-reveal" style="--delay: 0.5s">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-text ">
+                                <img src="logo/result.jpg" alt="imgFirst">
+                            </div>
+                            <div class="card-info">
+                                <p class="date">Jun. 24, 2025</p>
+                                <p class="location">DIU Campus</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="award-box scroll-reveal" style="--delay: 0.6s">
+                    <p class="text"><span class="animated-title animate-silver">Top 6% in the preliminary round</span>
+                        participated in the onsite UTA algorithm contest and the contest challenged my problem-solving
+                        and algorithm skills, requiring careful planning, optimization, and quick thinking to tackle
+                        time limited coding problems.</p>
+                </div>
+
+    </section>
+
+    <!-- <section id="contact" class="page-section" data-page="contact">
+        <div class="container">
+            <div class="content">
+                <div class="intro-text scroll-reveal">
+                    <h1 class="intro-text">Contact</h1>
+                    <p class="text">Get in touch</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <footer class="footer-main">
+        <div class="container">
+            <div class="content">
+                <div class="social-icons scroll-reveal">
+                    <a href="https://github.com/RifatHossanBadhon" target="_blank" title="Github">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rifat-hossan-badhon" target="_blank" title="Linkedln">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/livingOdyssey" target="_blank" title="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                        </svg>
+                    </a>
+                    <a href="mailto:rifathossanbadhon@gmail.com" target="_blank" title="Gmail">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path
+                                d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z" />
+                        </svg>
+                    </a>
+
+                </div>
+                <p class="text scroll-reveal" style="--delay: 0.1s">&copy; 2025 Rifat Hossan Badhon. All Rights
+                    Reserved.</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="game.js"></script>
+    <script src="animation.js"></script>
+</body>
+
+</html>

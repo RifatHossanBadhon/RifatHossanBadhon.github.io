@@ -1,0 +1,40 @@
+
+.footer-main {
+    color: white;
+    /* border: 2px solid rebeccapurple; */
+
+}
+
+.social-icons {
+    display: flex;
+    gap: 25px;
+    justify-items: center;
+    align-items: center;
+}
+
+.social-icons svg {
+    width: 20px;
+    height: 20px;
+    fill: rgba(255, 255, 255, 0.6);
+    transition: fill 0.3s ease, transform 0.3s ease;
+
+}
+
+.social-icons a:hover svg {
+    fill: #ffffff;
+    transform: scale(1.15);
+}
+
+.social-icons a::after {
+    display: none;
+}
+
+.footer-main .content {
+    margin-top: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-main .container {
+    height: 70px;
+}
